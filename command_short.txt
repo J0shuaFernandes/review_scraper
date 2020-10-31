@@ -1,0 +1,1 @@
+pyinstaller --onefile --exclude matplotlib --exclude scipy --exclude pandas --exclude numpy --exclude tkinter --exclude sklearn --exclude django --exclude tensorflow --exclude flask --exclude PyQt5 --exclude PyQt4 --exclude pillow --exclude setuptools --exclude pygame --exclude cv2 main.py
